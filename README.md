@@ -6,7 +6,7 @@ A lightweight web application where an admin user can log in, submit a company, 
 
 - **Frontend**: [revocase.bahabayrakcioglu.com](https://revocase.bahabayrakcioglu.com) (Cloudflare Pages)
 - **Backend API**: Deployed on Railway
-- **API Docs (Swagger)**: `<railway-url>/docs`
+- **API Docs (Swagger)**: [revocase-production.up.railway.app/docs](https://revocase-production.up.railway.app/docs)
 - **Database**: Supabase (PostgreSQL)
 
 ## Tech Stack

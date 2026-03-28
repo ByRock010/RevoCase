@@ -1,0 +1,151 @@
+.home-container {
+  min-height: 100vh;
+  background: #F8F7EE;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 64px;
+  background: #293E56;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.home-header h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.header-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.create-btn {
+  padding: 8px 24px;
+  background: #E4C06E;
+  color: #293E56;
+  border: none;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+}
+
+.create-btn:hover {
+  background: #D4AD5A;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(228, 192, 110, 0.4);
+}
+
+.logout-btn {
+  padding: 8px 20px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.home-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.loading {
+  text-align: center;
+  color: #6B7B8D;
+  padding: 80px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.empty-icon {
+  width: 64px;
+  height: 64px;
+  background: #293E56;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.empty-icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: #E4C06E;
+  fill: none;
+  stroke-width: 1.5;
+}
+
+.empty-state h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #293E56;
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  color: #6B7B8D;
+  font-size: 14px;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.error-state {
+  text-align: center;
+  padding: 80px 20px;
+  color: #6B7B8D;
+  font-size: 14px;
+}
+
+.retry-btn {
+  margin-top: 16px;
+  padding: 8px 24px;
+  background: #293E56;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.retry-btn:hover {
+  background: #1E2F42;
+}
+
+.companies-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

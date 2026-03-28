@@ -1,0 +1,184 @@
+.company-card {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #E5E2D9;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.company-card:hover {
+  box-shadow: 0 4px 20px rgba(41, 62, 86, 0.08);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.card-header:hover {
+  background: rgba(41, 62, 86, 0.02);
+}
+
+.card-info h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #293E56;
+  margin-bottom: 4px;
+  letter-spacing: -0.2px;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #6B7B8D;
+  font-weight: 400;
+}
+
+.meta-divider {
+  color: #D1D5DB;
+}
+
+.meta-link {
+  color: #E4C06E;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.meta-link:hover {
+  color: #C9A54E;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.delete-btn {
+  background: none;
+  border: 1px solid #E5E2D9;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.2s;
+  color: #6B7B8D;
+  font-size: 14px;
+}
+
+.company-card:hover .delete-btn {
+  opacity: 1;
+}
+
+.delete-btn:hover {
+  border-color: #B91C1C;
+  color: #B91C1C;
+  background: #FEF2F2;
+}
+
+.expand-icon {
+  font-size: 12px;
+  color: #6B7B8D;
+  transition: transform 0.3s ease;
+}
+
+.expand-icon.expanded {
+  transform: rotate(180deg);
+}
+
+.card-details {
+  padding: 0 24px 24px;
+  border-top: 1px solid #F0EDE4;
+}
+
+.summary-section {
+  padding-top: 20px;
+}
+
+.summary-section h4,
+.competitors-section h4 {
+  font-size: 11px;
+  font-weight: 700;
+  color: #293E56;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.summary-section ul,
+.competitor-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.summary-section li,
+.competitor-item li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #4A5568;
+  line-height: 1.6;
+}
+
+.summary-section li::before,
+.competitor-item li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  background: #E4C06E;
+  border-radius: 50%;
+}
+
+.competitors-section {
+  margin-top: 24px;
+}
+
+.competitors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.competitor-item {
+  background: #F8F7EE;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #E5E2D9;
+}
+
+.competitor-item h5 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #293E56;
+  margin-bottom: 10px;
+  letter-spacing: -0.1px;
+}
+
+.card-footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #F0EDE4;
+}
+
+.created-at {
+  font-size: 11px;
+  color: #A0AEC0;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}

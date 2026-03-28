@@ -98,7 +98,7 @@ A company has many competitors (one-to-many). Deleting a company cascades to its
 
 ## AI Integration
 
-- **Model**: OpenAI GPT-4o-mini
+- **Model**: OpenAI GPT-4o
 - **Approach**: Structured prompt requesting JSON output with company summary and 5 competitors
 - **Each summary**: 4-5 concise bullet points
 - **Error handling**: Returns 502 if the AI service fails

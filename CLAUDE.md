@@ -11,7 +11,7 @@ RevoCase is a company intelligence platform where an admin user can log in, subm
 - **Frontend:** React 18 + Vite (in `ui/`)
 - **Backend:** Python 3.12 + FastAPI (in `api/`)
 - **Database:** PostgreSQL on Supabase (cloud, Mumbai/ap-south-1 region)
-- **AI:** OpenAI GPT-4o-mini for company analysis
+- **AI:** OpenAI GPT-4o for company analysis
 - **Deployment target:** Frontend on Cloudflare Pages (`revocase.bahabayrakcioglu.com`), Backend on Railway
 
 ## Key Credentials & Config
@@ -34,7 +34,7 @@ RevoCase/
 │   │   ├── models.py           # SQLAlchemy: Company, Competitor (one-to-many)
 │   │   ├── schemas.py          # Pydantic: LoginRequest, CompanyCreate, CompanyResponse
 │   │   ├── auth.py             # JWT auth (python-jose, HS256, 60min expiry)
-│   │   ├── ai_service.py       # OpenAI GPT-4o-mini integration
+│   │   ├── ai_service.py       # OpenAI GPT-4o integration
 │   │   ├── config.py           # Loads env vars from .env
 │   │   └── database.py         # SQLAlchemy engine + session
 │   ├── Dockerfile, Procfile     # Railway deployment

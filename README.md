@@ -16,7 +16,7 @@ A lightweight web application where an admin user can log in, submit a company, 
 | Frontend   | React + Vite           |
 | Backend    | Python + FastAPI       |
 | Database   | PostgreSQL (Supabase)  |
-| AI         | OpenAI GPT-4o-mini     |
+| AI         | OpenAI GPT-4o          |
 | Hosting    | Cloudflare Pages + Railway |
 
 ## Project Structure
@@ -112,6 +112,6 @@ docker-compose up --build
 
 1. **Authentication** - JWT-based login with admin credentials
 2. **Company Creation** - Submit company name, HQ, and website
-3. **AI Analysis** - OpenAI GPT-4o-mini generates a summary + 5 competitors with bullet points
+3. **AI Analysis** - OpenAI GPT-4o generates a summary + 5 competitors with bullet points
 4. **Persistent History** - All companies stored in PostgreSQL and displayed on homepage
 5. **Swagger Docs** - Full API documentation at `/docs`

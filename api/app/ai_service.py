@@ -81,7 +81,7 @@ Return ONLY valid JSON in this exact format:
 The competitors array must contain exactly 5 entries."""
 
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             {
                 "role": "system",

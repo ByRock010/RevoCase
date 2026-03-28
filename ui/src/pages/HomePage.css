@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
-  height: 88px;
+  height: 96px;
   background: #293E56;
   position: sticky;
   top: 0;
@@ -16,8 +16,9 @@
 }
 
 .header-logo {
-  height: 48px;
+  height: 70px;
   width: auto;
+  margin-left: 60px;
 }
 
 .header-right {

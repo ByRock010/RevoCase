@@ -15,11 +15,9 @@
   z-index: 10;
 }
 
-.home-header h1 {
-  font-size: 18px;
-  font-weight: 700;
-  color: white;
-  letter-spacing: 0.5px;
+.header-logo {
+  height: 28px;
+  width: auto;
 }
 
 .header-right {

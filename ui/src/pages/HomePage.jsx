@@ -59,7 +59,7 @@ export default function HomePage() {
     <div className="home-container">
       <header className="home-header">
         <div className="header-left">
-          <h1>RevoCase</h1>
+          <img src="/revo-logo.svg" alt="Revo" className="header-logo" />
         </div>
         <div className="header-right">
           <button className="create-btn" onClick={() => setShowModal(true)}>

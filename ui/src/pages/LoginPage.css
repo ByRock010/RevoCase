@@ -21,12 +21,11 @@
   margin-bottom: 36px;
 }
 
-.login-header h1 {
-  font-size: 26px;
-  font-weight: 700;
-  color: #293E56;
-  letter-spacing: -0.5px;
-  margin-bottom: 6px;
+.login-logo {
+  height: 40px;
+  width: auto;
+  filter: brightness(0) saturate(100%) invert(22%) sepia(15%) saturate(1500%) hue-rotate(175deg) brightness(95%) contrast(90%);
+  margin-bottom: 8px;
 }
 
 .login-header p {

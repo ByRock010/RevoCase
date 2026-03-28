@@ -30,7 +30,7 @@ export default function LoginPage() {
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
-          <h1>RevoCase</h1>
+          <img src="/revo-logo.svg" alt="Revo" className="login-logo" />
           <p>Company Intelligence Platform</p>
         </div>
         <form onSubmit={handleSubmit}>
